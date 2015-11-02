@@ -46,6 +46,7 @@
 
 #include <algorithm>
 #include <cmath>
+#include <cstring>
 #include <assert.h>
 
 //  begin namespace

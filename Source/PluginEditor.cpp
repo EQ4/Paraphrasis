@@ -40,7 +40,7 @@
  tom@virtualanalogy.com
  */
 
-#include "Resources.h"
+#include "../Resources/Resources.h"
 #include "SampleAnalyzer.h"
 #include "ParameterDefitions.h"
 //[/Headers]

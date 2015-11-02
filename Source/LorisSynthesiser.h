@@ -27,7 +27,7 @@
 #include "../JuceLibraryCode/JuceHeader.h"
 
 #include "Synthesizer.h"
-#include "RealTimeSynthesizer.h"
+#include "RealtimeSynthesizer.h"
 #include "Resampler.h"
 
 using namespace juce;

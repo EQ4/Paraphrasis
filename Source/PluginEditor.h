@@ -49,7 +49,7 @@
 
 #include "Resources.h"
 
-#include "dRowAudio_PitchDetector.h"
+#include "dRowAudio/dRowAudio.h"
 //[/Headers]
 
 
