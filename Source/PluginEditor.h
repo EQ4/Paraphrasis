@@ -79,7 +79,7 @@ public:
 
     /** Set LED light on
         @param on true = on, off otherwise. */
-    void lightOn(bool on) { ledBtn->setToggleState(on, false); }
+    void lightOn(bool on) { ledBtn->setToggleState(on, dontSendNotification); }
 
     /** teragon::ParameterObserver method
         @param parameter Parameter to be updated.
