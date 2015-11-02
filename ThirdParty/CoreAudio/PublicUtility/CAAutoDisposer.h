@@ -221,7 +221,7 @@ public:
 
 
 	// automatic conversions to allow assignment from results of functions.
-	// hard to explain. see auto_ptr implementation and/or Josuttis' STL book.
+	// hard to explain. see unique_ptr implementation and/or Josuttis' STL book.
 	CAAutoFree(CAPtrRef<T> ref) : ptr_(ref.ptr_) { }
 
 	CAAutoFree& operator=(CAPtrRef<T> ref)
@@ -322,7 +322,7 @@ public:
 
 
 	// automatic conversions to allow assignment from results of functions.
-	// hard to explain. see auto_ptr implementation and/or Josuttis' STL book.
+	// hard to explain. see unique_ptr implementation and/or Josuttis' STL book.
 	CAAutoDelete(CAPtrRef<T> ref) : ptr_(ref.ptr_) { }
 
 	CAAutoDelete& operator=(CAPtrRef<T> ref)
@@ -432,7 +432,7 @@ public:
 
 
 	// automatic conversions to allow assignment from results of functions.
-	// hard to explain. see auto_ptr implementation and/or Josuttis' STL book.
+	// hard to explain. see unique_ptr implementation and/or Josuttis' STL book.
 	CAAutoArrayDelete(CAPtrRef<T> ref) : ptr_(ref.ptr_) { }
 
 	CAAutoArrayDelete& operator=(CAPtrRef<T> ref)
